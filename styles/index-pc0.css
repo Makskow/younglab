@@ -1,0 +1,41 @@
+.block4{
+	height:1250px;
+}
+.block4-white{
+	height:1050px;
+}
+.block4-bottom-text{
+	width:85%;
+}
+.block7-top,.block7-bottom{
+    width:65%;
+}
+.block3{
+	height:4200px;
+}
+.block3-white{
+	height:4000px;
+}
+.block3-info1{
+	width:85%;
+}
+.help-type-list p{
+	font-size:20px;
+}
+.block3-info2{
+	width:70%;
+	font-size:35px;
+}
+.block3-info2 a{
+    font-size: 50px;
+    color: red;
+}
+.block3-notOnly{
+	margin-top:380px;
+}
+#mobile-nav{
+	display: none;
+}
+#mobile-menu{
+    display: none;
+}

@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="Young+Lab" name="keywords">
+    <meta content="" name="description">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="renderer" content="webkit">	
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+	<link rel="stylesheet" type="text/css" href="styles/swiper-3.4.0.min.css">
+   <!--  <link rel="stylesheet" type="text/css" media="screen and (max-width:2310px) and (min-width:1990px)" href="styles/index-pc00.css">
+     <link rel="stylesheet" type="text/css" media="screen and (max-width:1989px) and (min-width:1577px)" href="styles/index-pc01.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:1576px) and (min-width:1226px)" href="styles/index-pc0.css"> -->
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:1225px) and (min-width:870px)" href="styles/index-pc1.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:869px) and (min-width:680px)" href="styles/index-pad.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:679px) and (min-width:376px)" href="styles/index-mobile1.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:375px) " href="styles/index-mobile2.css">
+	<script src="scripts/custom.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+	<script src="scripts/swiper-3.4.0.min.js"></script>
+	<script src="scripts/swiper-3.4.0.jquery.min.js"></script>
+    <title>Young+Lab</title>
+</head>
+<body>
+    
+	 <div class="swiper-container" id="slide-block">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" id="slide1"></div>
+            <div class="swiper-slide" id="slide2"></div>
+            <div class="swiper-slide" id="slide3"></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-next"></div> -->
+        <!-- <div class="swiper-button-prev"></div> -->
+    </div>
+    <div class="block1" id="block1">
+    	<nav>
+            <ul class="main-nav">
+                <a href="#slide-block">
+                    <li class="menu-small">首页</li>
+                </a>
+                <a href="#block1">
+                    <li class="menu-small">活动简介</li>
+                </a>
+                <a href="#block2">
+                    <li class="menu-small">导师招募</li>
+                </a>
+                <a href="#block3">
+                    <li class="menu-big">青年学生招募</li>
+                </a>
+                <a href="#block4">
+                    <li class="menu-small">日程安排</li>
+                </a>
+                <a href="#block5">
+                    <li class="menu-small">报名参加</li>
+                </a>
+                <a href="#block6">
+                    <li class="menu-small">市场合作</li>
+                </a>
+                <a href="#block7">
+                    <li class="menu-small">组织机构</li>
+                </a>
+                <a href="#block8">
+                    <li class="menu-small">关于我们</li>
+                </a>
+                <a href="javascript:void(0)">
+                    <li id="download" class="menu-small">下载APP
+                        <div id="down-list1">
+                            <div id="down-APP">
+                                <p id="APP-text">洞察+&nbsp;APP下载</p> 
+                                <div id="APP-img">
+                                    <img src="img/APP.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="public" class="menu-small">关注公众号
+                        <div id="down-list2">
+                            <div id="wechat">
+                                <p id="wechat-text">微信公众号</p>
+                                <div id="wechat-img">
+                                    <img src="img/wechat.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+            <div id="mobile-nav">
+                <div class="mobile-nav-piece"></div>
+                <div class="mobile-nav-piece mobile-nav-piece2"></div>
+                <div class="mobile-nav-piece"></div>
+            </div>
+            <ul id="mobile-menu">
+                    <a href="#slide-block">
+                        <li>首页</li>
+                    </a>
+                    <a href="#block1">
+                        <li>活动简介</li>
+                    </a>
+                    <a href="#block2">
+                        <li>导师招募</li>
+                    </a>
+                    <a href="#block3">
+                        <li>青年学生招募</li>
+                    </a>
+                    <a href="#block4">
+                        <li>日程安排</li>
+                    </a>
+                    <a href="#block5">
+                        <li>报名参加</li>
+                    </a>
+                    <a href="#block6">
+                        <li>市场合作</li>
+                    </a>
+                    <a href="#block7">
+                        <li>组织机构</li>
+                    </a>
+                    <a href="#block8">
+                        <li>关于我们</li>
+                    </a>
+                    
+                    <li id="mobile-download-btn">下载APP
+                        <div id="mobile-download">
+                            <div id="down-APP">
+                                <p id="APP-text">洞察+&nbsp;APP下载</p> 
+                                <div id="APP-img">
+                                    <img src="img/APP.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li id="mobile-public-btn">关注公众号
+                        <div id="mobile-public">
+                            <div id="wechat">
+                                <p id="wechat-text">微信公众号</p>
+                                <div id="wechat-img">
+                                    <img src="img/wechat.jpeg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+        </nav>
+    	<div class="block1-content">
+    		<div class="act-title">
+	    		<div class="title-img">
+	    			<img src="img/dczc-09.png" alt="">
+	    		</div>
+	    		<p class="title-text">活动简介</p>
+	    	</div>
+	    	<p class="act-content">
+	    		"洞察职场&nbsp;&nbsp;预见未来"系列活动是由推聘旗下洞察+APP与young+lab平台联合主办的针对青年学生学位后教育的主题活动。活动吸引了来自世界各<a href="">知名企业高管、创业公司的创始人</a>等数百名知名人士，参与方式除了亲临现场还可以通过合作的直播平台观看活动。2016年12月，“洞察职场遇见未来”校园系列巡讲活动将在上海十所高校率先展开，预计共20场大型校园活动，7场小型私密活动。第一期包括但不限于<a href="">上海对外经贸大学，复旦大学，上海财经大学，上海交通大学，华东师范大学</a>等数十所高校。2017年春向全国覆盖。
+	    	</p>
+	    	<div class="act-type">
+	    		<div class="act-type-title">
+	    			<div class="type-title-triangle"></div>
+	    			<p class="type-title-text">活动类型</p>
+	    		</div>
+	    		<div class="act-type-content">
+	    			<div class="type-content-list">
+	    				<div class="block1-list-left">
+	    					<img src="img/dczc-11.png" alt="">
+	    				</div>
+	    				<div class="block1-list-right">
+	    					<div class="list-right-title">
+	    						<img src="img/dczc-12.png" alt="">
+	    					</div>
+	    					<p class="list-right-text">
+	    						“零距离”答疑解惑。无论是行业解析，还是职业规划，亦或是创业启蒙，这里你都能找到答案。
+	    					</p>
+	    				</div>
+	    			</div>
+	    			<div class="type-content-list">
+	    				<div class="block1-list-left">
+	    					<img src="img/dczc-13.png" alt="">
+	    				</div>
+	    				<div class="block1-list-right">
+	    					<div class="list-right-title">
+	    						<img src="img/dczc-16.png" alt="">
+	    					</div>
+	    					<p class="list-right-text">
+	    						每一期，2-3位从事相似职能的职场精英，近距离分享职场经验或技能，助你抹去职业发展的困惑。
+	    					</p>
+	    				</div>
+	    			</div>
+	    			<div class="type-content-list">
+	    				<div class="block1-list-left">
+	    					<img src="img/dczc-14.png" alt="">
+	    				</div>
+	    				<div class="block1-list-right">
+	    					<div class="list-right-title">
+	    						<img src="img/dczc-17.png" alt="">
+	    					</div>
+	    					<p class="list-right-text">
+	    						为各行业召开
+	    					</p>
+	    				</div>
+	    			</div>
+	    			<div class="type-content-list">
+	    				<div class="block1-list-left">
+	    					<img src="img/dczc-15.png" alt="">
+	    				</div>
+	    				<div class="block1-list-right">
+	    					<div class="list-right-title">
+	    						<img src="img/dczc-18.png" alt="">
+	    					</div>
+	    					<p class="list-right-text">
+	    						资深职场专家作为你的私人导师，现场模拟、专业分析、头脑风暴等，帮你透视问题的本质，让你提前感受职场真实场景。
+	    					</p>
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+    	</div>
+    </div>
+    <div class="block2" id="block2">
+        <div class="block-title">
+            <div class="block-title-img2">
+                <img src="img/dczc-19.png" alt="">
+            </div>
+            <p class="block-title-text2">导师招募</p>
+        </div>
+        <div class="box2">
+            <div class="listImg" >
+                <img src="img/dczc-23.png">
+            </div>
+            <div>
+                <div class="list">
+                    <img  src="img/dczc-25.png">
+                </div>
+                <div class="box2Contant">
+                    <ul >
+                    <li class="left">
+                        <div class="contant">
+                            <div class="face">
+                                <img src="img/dczc-20.png">
+                            </div>
+                            <p class="text">
+                                曾经同样年轻的我们
+                                曾经相似的职场困惑
+                                却不得而解 
+                                踏入征程遍体鳞伤
+                            </p>
+                        </div>
+                    </li>
+                    <li class="left2">
+                        <div class="contant">
+                            <div class="face">
+                                <img src="img/dczc-22.png">
+                            </div>
+                            <p class="text">
+                                经历职场十载磨砺<br/>
+                                商场厮杀 <br/>
+                                如今已有无尽之谆谆教诲
+                                &nbsp;
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contant">
+                            <div class="face">
+                                <img src="img/dczc-21.png">
+                            </div>
+                            <p class="text">
+                                就让现在的我们
+                                指导曾经的“我们”<br/>
+                                绽放不一样的职场人生
+    
+                            </p>
+                        </div>
+                    </li>
+                    </ul>
+                </div>
+                 <div class="dream">
+                    <span class="ni">你</span>,就是那个“梦想导师”!
+                </div>
+            </div> 
+            <div>
+                <div class="list">
+                    <img  src="img/dczc-26.png">
+                </div>
+                <div class="dream_contant"></div>
+            </div>
+            <div>
+                <div class="list">
+                    <img  src="img/dczc-27.png">
+                </div>
+                <p class="_textcontant">直面毕业生,选拔最合适您的 Management Trainee,收获“未来的你”</p> 
+                <p class="_contant">利用碎片时间,将知识变现,获取丰厚报酬</p>     
+            </div>
+            <div>
+                <div class="list">
+                    <img  src="img/dczc-28.png">
+                </div>
+                <div class="teacher">
+                    <div class="listOne">
+                        <img src="img/zj01.jpg">
+                    </div>
+					<div class="listOne">
+                        <img src="img/zj02.jpg">
+					</div>
+                    <div class="listOne">
+                         <img src="img/zj03.jpg">
+					</div>
+					<div class="listOne">
+                        <img src="img/zj04.jpg">
+					</div>      
+                </div>
+                <div class="redText">
+                    您输出的不仅是知识与经验 更是信心!
+                </div>
+            </div>
+            <div>
+                <div class="list">
+                    <img  src="img/dczc-29.png">
+                </div>
+                <div class="backGround"> 
+                    <p>
+                        &nbsp; &nbsp; &nbsp; &nbsp;“洞察职场,预见未来”全国校园巡讲是由<span> 推聘信息科技(上海) 有限公司</span> 主办的公益项目。
+                    </p> 
+                    <p >&nbsp; &nbsp; &nbsp; &nbsp;巡讲期间,各行业职场精英将为广大青年学生“零距离”答疑解惑 。无论是对行业前沿的深度观察与分析,还是对职业与个人发展的剖析 与抉择,亦或是对于创新创业的探索与尝试。</p>     
+                </div>
+                <div class="list_box">
+                    <div class="list-left">
+                        <img  src="img/dczc-30.png">
+                    </div>
+                    <div class="list-right">
+                        <img  src="img/dczc-41.png">
+                        <div class="backGround_text">
+                            扫一扫<br>
+                            成为梦想导师
+                        </div>
+                    </div>
+                </div>
+            </div>
+		 </div>
+    </div>
+    <div class="block3" id="block3">
+    	<div class="block-title">
+    		<div class="block-title-img block3-title-img">
+    			<img src="img/dczc-19.png" alt="">
+    		</div>
+    		<p class="block-title-text block3-title-text">青年学生招募</p>
+    	</div>
+    	<div class="block3-white">
+	    	<div class="block3-content">
+	    		<div class="block3-recruit">
+	    			<img src="img/dczc-24.png" alt="">
+	    		</div>
+	    		<div class="block3-help">
+	    			<img src="img/dczc-31.png" alt="">
+	    		</div>
+	    		<div class="block3-help-type-list">
+	    			<div class="help-type-list help-type-list1">
+	    				<div class="type-list-img">
+	    					<img src="img/dczc-37.png" alt="">
+	    				</div>
+	    				<p class="type-list-text1">
+	    					求职在即，一片茫然 但不愿将就，随性二选
+	    				</p>
+	    				<p class="type-list-text2">
+	    					
+	    				</p>
+	    			</div>
+	    			<div class="help-type-list help-type-list2">
+	    				<div class="type-list-img">
+	    					<img src="img/dczc-38.png" alt="">
+	    				</div>
+	    				<p class="type-list-text1">
+	    					创新创业
+	    				</p>
+	    				<p class="type-list-text2">
+	    					满怀热情
+	    				</p>
+	    				<p class="type-list-text3">
+	    					期盼“老司机”之手引路
+	    				</p>
+	    			</div>
+	    			<div class="help-type-list help-type-list3">
+	    				<div class="type-list-img">
+	    					<img src="img/dczc-39.png" alt="">
+	    				</div>
+	    				<p class="type-list-text1">手握多家Offer 不知何去何从 期盼经验之声</p>
+	    				<p class="type-list-text2"></p>
+	    				<p class="type-list-text3"></p>
+	    			</div>
+	    		</div>
+	    		<div class="block3-notOnly">
+	    			<img src="img/dczc-32.png" alt="">
+	    		</div>
+	    		<div class="block3-info1"></div>
+	    		<div class="block3-more">
+	    			<img src="img/dczc-33.png" alt="">
+	    		</div>
+	    		<div class="block3-info2">
+	    			<div class="overfollow">
+	    				<p class="block3-text2">
+		    				<a href="javascript:void(0)">500强</a>公司BOSS等你来&nbsp;“直面”
+		    			</p>
+	    			</div>
+	    			<div class="overfollow">
+		    			<p class="block3-text3">
+		    				----省去一切繁琐面申流程
+		    			</p>
+	    			</div>
+	    			<div class="overfollow">
+	    				<p class="block3-text4">
+		    				<a href="javascript:void(0)">500万</a>创业基金，等你来拿！
+		    			</p>
+	    			</div>
+	    			<div class="overfollow">
+	    				<p class="block3-text5">
+		    				----省去一切冗长的审核环节
+		    			</p>
+	    			</div>
+	    		</div>
+	    		<div class="block3-choose">
+		    		<div class="block3-choose-img">
+		    			<img src="img/dczc-34.png" alt="">
+		    		</div>
+                    <div class="choose1-fa">
+                        <div class="block3-choose1 choose">
+                            <img src="img/xs01.jpg" alt="">
+                        </div>
+                        <div class="block3-choose2 choose">
+                            <img src="img/xs02.jpg" alt="">
+                        </div>
+                        <div class="block3-choose3 choose">
+                            <img src="img/xs03.jpg" alt="">
+                        </div>
+                        <div class="block3-choose4 choose">
+                            <img src="img/xs04.jpg" alt="">
+                        </div>
+                    </div>
+	    			
+	    		</div>
+	    		<div></div>
+	    		<div class="block3-background">
+	    			<img src="img/dczc-35.png" alt="">
+	    		</div>
+	    		<div class="block3-info3">
+	    			<p class="block3-info3-text1">
+	    				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“洞察职场,预见未来”全国校园巡讲是由
+	    				<a href="javascript:void(0)">推聘信息科技(上海) 有限公司</a>
+	    				主办的公益项目。
+	    			</p>
+	    			<p class="block3-info3-text2">
+	    				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;巡讲期间,各行业职场精英将为广大青年学生“零距离”答疑解惑 。无论是对行业前沿的深度观察与分析,还是对职业与个人发展的剖析 与抉择,亦或是对于创新创业的探索与尝试。
+	    			</p>
+	    		</div>
+	    		<div class="block3-how">
+	    			<div class="block3-how-left">
+	    				<img src="img/dczc-36.png" alt="">
+	    			</div>
+	    			<div class="block3-how-right">
+	    				<div class="block3-erweima">
+	    					<img src="img/dczc-42.png" alt="">
+	    				</div>
+	    				<p>扫一扫</p>
+	    				<p>成为首批学员</p>
+	    			</div>
+	    		</div>
+	    		<p class="block3-info4">
+	    			更多你想不到的优惠福利，就在这里！！！
+	    		</p>
+	    	</div>
+    	</div>
+    </div>
+    <div class="block4" id="block4">
+    	<div class="block-title">
+    		<div class="block-title-img block4-title-img">
+    			<img src="img/dczc-19.png" alt="">
+    		</div>
+    		<p class="block-title-text block4-title-text">日程安排</p>
+    	</div>
+    	<div class="block4-white">
+    		<div class="block4-top">
+    			<div class="block4-top-title">
+    				<div class="top-title-triangle"></div>
+    				<p>上海站排期</p>
+    			</div>
+    			<div class="block4-top-table">
+    				<img src="img/dczc-44.png" alt="">
+    			</div>
+	    	</div>
+	    	<div class="block4-bottom">
+	    		<div class="block4-bottom-title">
+	    			<div class="top-title-triangle"></div>
+    				<p>全国巡讲排期</p>
+	    		</div>
+	    		<div class="block4-bottom-text">
+	    			<p class="block4-bottom-text1">2017年即将覆盖全国各主要城市</p>
+		    		<p class="block4-bottom-text2">即将开启，敬请期待！</p>
+		    		<p class="block4-bottom-text3">	（北京、南京、广州、杭州、成都、武汉、合肥等）</p>
+	    		</div>
+	    	</div>
+    	</div>
+    </div>
+    <div class="block5" id="block5">
+        <div class="block-title5">
+            <div class="block-title-img5">
+                <img src="img/dczc-19.png" alt="">
+            </div>
+            <p class="block-title-text5">报名参加</p>
+        </div>
+        <div class="box5">
+            <div class="join_contant">
+                 <p class="join">想要<span class="join_red">免费参与</span>跟我一起来操作!</p>
+                 <div class="jion_img">
+                     <img src="img/dczc-45.png">
+                 </div>
+                 <div class="jion_img">
+                     <img src="img/dczc-48.png">
+                 </div>
+                 <div class="jion_img">
+                     <img src="img/dczc-49.png">
+                 </div>
+                 <div class="jion_img">
+                     <img src="img/dczc-50.png">
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="block6" id="block6">
+        <div class="block-title6">
+            <div class="block-title-img6">
+                <img src="img/dczc-19.png" alt="">
+            </div>
+            <p class="block-title-text6">市场合作</p>
+        </div>
+        <div class="box6">
+            <div class="inject_contant">
+                  <img src="img/dczc-46.png">
+            </div>
+        </div>
+    </div>
+    <div class="block7" id="block7">
+		<div class="block-title">
+    		<div class="block-title-img block7-title-img">
+    			<img src="img/dczc-19.png" alt="">
+    		</div>
+    		<p class="block-title-text block7-title-text">组织机构</p>
+    	</div>
+    	<div class="block7-white">
+    		<div class="block7-top">
+    			<p>主办单位:&nbsp;推聘信息科技(上海)有限公司</p>
+    			<p>合作伙伴:&nbsp;源咖啡、FC club、励业公社、CEO创业联盟	</p>
+    			<p>合作直播:&nbsp;千聊直播、联图直播</p>
+    		</div>
+    		<div class="block7-bottom">
+    			<div class="block7-bottom-title">
+	    			<div class="top-title-triangle"></div>
+    				<p>媒体(包含但不仅限于)</p>
+	    		</div>
+	    		<div class="block7-bottom-text">
+	    			<p>自有渠道:&nbsp;官网、洞察+APP、官方微博、微信等;</p>
+	    			<p>公共媒体:&nbsp;应届生、活动行、豆瓣、知乎等社交网站;</p>
+	    			<p>传统网媒:&nbsp;搜狐、新浪、网易、腾讯等;</p>
+	    			<p>校方媒体:&nbsp;官网、BBS、新媒体(微博/微信)以及校内学生运营的大微、微信大号等;</p>
+	    			<p>社群营销:&nbsp;微信群,QQ群及学生的朋友圈等;</p>
+	    		</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="block8" id="block8">
+        <div class="block-title8">
+            <div class="block-title-img8">
+                <img src="img/dczc-19.png" alt="">
+            </div>
+            <p class="block-title-text6">关于我们</p>
+        </div>
+        <div class="box8">
+            <div class="company">
+                ￼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;推聘信息科技(上海)有限公司前身是一家人力资源服务公司,2015年9月 以“互联网+”思维模式,重装上阵。目前,推聘公司总部位于中国上海,并且在 德国柏林及美国硅谷正在筹建全球分公司。推聘信息科技秉承“以人为本,以商为 质”的企业发展理念,志在成为以“人类发展“为商业核心的互联网综合服务提供 商,最终通过互联网共享经济模式帮助人类寻找并实现自我价值。
+            </div>
+            <div class="App">
+                <img src="img/dczc-10.png">
+                <span class="app_text">洞察家APP</span>
+            </div>
+            <div class="what">
+               <span>“洞察＋” 是什么</span> 
+            </div>
+            <div class="app_contant">
+                  <img src="img/dczc-47.png">
+            </div>
+            <div class="app_footer">
+                  <img src="img/dczc-51.png">
+            </div>
+               <div class="what">
+               <span>联系我们</span>
+            </div>
+            <div class="about_box">
+                 <div class="about_left"> 
+                    <img  src="img/dczc-41.png">
+                    <div class="backGround_text">
+                        扫一扫<br>
+                        关注我们
+                    </div>
+                </div>
+                <div class="about_right">
+                   <span>Email:</span> info2@pushr.biz<br>
+                   <span>网址:</span><br>
+                   http://www.tripint.com<br>
+                   http://www.dongchajia.com<br>
+                   <span>微信公众号:</span><br>
+                   洞察家世界(ID:DCJwolrd)<br>
+                </div> 
+            </div> 
+        </div>
+    </div>
+    <div class="block9">
+        <div class="footer">
+              <div>
+               <a  href="http://www.tripint.com/" target="_blank" class="footer-text">
+                Tripint推聘
+               </a>
+              </div>
+             <div>
+              <a  href="http://www.intersight.biz/" target="_blank" class="footer-text">
+               Intersight+
+              </a>
+             </div>
+             <div >
+              <a href="http://www.pushr.biz/" target="_blank" class="footer-text">
+               Pushr派选者
+               <br>
+              </a>
+             </div>
+             <div id="last">
+              <a href="http://www.tegchina.biz/" target="_blank" class="footer-text">
+               TEG技术外包
+              </a>
+             </div>
+        </div>
+    </div>
+
+    <script>
+    // Initialize Swiper
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        loop: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false,
+    });
+
+   //DOWNLOAD
+       $('#download').mouseover(function() {
+            $('#down-list1').slideDown(500);
+       })
+       $('#download').mouseleave(function() {
+            $('#down-list1').slideUp(500);
+       })
+
+       $('#public').mouseover(function() {
+            $('#down-list2').slideDown(500);
+       })
+       $('#public').mouseleave(function() {
+            $('#down-list2').slideUp(500);
+       })
+
+    //mobile download
+    $('#mobile-download-btn').click(function() {
+        $('#mobile-download').toggle();
+        $('#mobile-public').hide();
+    })
+    $('#mobile-public-btn').click(function() {
+        $('#mobile-public').toggle();
+        $('#mobile-download').hide();
+    })
+
+    //mobile menu
+    $('#mobile-nav').click(function() {
+        $('#mobile-menu').slideToggle(500);
+    })
+    $('.block2,.block1-content,.block3,.block4,.block5,.block6,.block7,.block8,.block9').click(function() {
+        $('#mobile-menu').slideUp(500);
+    })
+
+    $(window).load(function() {
+      $("body").hide().fadeIn("slow");
+    });
+
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+               if (target.length) {
+                 $('html,body').animate({
+                     scrollTop: target.offset().top
+                }, 500);
+                return false;
+            }
+        }
+    });
+    </script>
+
+</body>
+</html>
